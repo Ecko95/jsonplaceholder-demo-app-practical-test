@@ -1,0 +1,5 @@
+<div *ngFor="let photo of photos">
+	<!--| async -->
+	<h5>{{photo.id}}</h5>
+	<img [src]="photo.url" [alt]="photo.title">
+</div>
