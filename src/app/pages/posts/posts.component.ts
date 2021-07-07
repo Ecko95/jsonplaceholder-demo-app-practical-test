@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-posts',
@@ -7,9 +6,7 @@ import { ApiService } from '../../services/api.service';
   styleUrls: ['./posts.component.css']
 })
 export class PostsComponent implements OnInit {
-  constructor(private api: ApiService) {}
+  constructor() {}
 
-  ngOnInit() {
-    this.api.getColorsByEyes();
-  }
+  ngOnInit() {}
 }
