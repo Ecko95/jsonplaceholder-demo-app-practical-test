@@ -68,6 +68,9 @@ export class ApiService {
     this.newPost = this.http.post(this.ROOT_URL + '/posts', data);
   }
 
+  //array funtions below
+  //! please complete all the possible ones.
+
   // MAP
   // Get an array of all names
   // Get an array of all heights
